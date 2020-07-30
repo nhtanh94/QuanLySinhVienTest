@@ -40,3 +40,7 @@ const renderEmployees = function (arr) {
   console.log(htmlContent);
   document.getElementById("tblSinhVien").innerHTML = htmlContent;
 };
+
+const themSV = function () {
+  return console.log("New Function !");
+};
